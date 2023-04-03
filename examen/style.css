@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+#navegador{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+li{
+    list-style: none;
+    margin: 5px;
+}
+.imagen{
+    background-image: url(ima.jpg);
+    
+}
+a{
+    text-decoration: none;
+    
+}
+.container_menu{
+    background-image: url(pexels-james-wheeler-417074.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    height: 33vh;
+}
+.container_principal{
+    background-color: #1e2233;
+    height: 33vh;
+}
+.container_footer{
+    background-color: #24273d;
+    height: 33vh;
+}
